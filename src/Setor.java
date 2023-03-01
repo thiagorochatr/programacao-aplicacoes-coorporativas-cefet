@@ -1,6 +1,6 @@
 public class Setor {
+    private int idSetor;
     private String nome;
-    private int salario;
 
     public Setor() {
 
@@ -16,13 +16,5 @@ public class Setor {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public int getSalario() {
-        return salario;
-    }
-
-    public void setSalario(int salario) {
-        this.salario = salario;
     }
 }
